@@ -1,0 +1,101 @@
+.profile-card{
+    padding: 15px;
+    /* max-width: 768px; */
+  }
+  
+  .profile-card-item{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 5px;
+    box-shadow: 0.5px 0.5px 3px #343a40;
+  }
+  
+  .profile-card-item .profile-card-date{
+    color: #cecece;
+  }
+  .profile-card-item .profile-card-text{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 5px;
+    color: #343a40;
+  }
+  
+  /*
+    reviever = profile
+    review-item = profile-card-item
+    reviews = profile-card
+  */
+
+  .profile-card-item .profiler{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #cecece;
+  }
+  
+  /****Rating Stars***/
+  .raterater-bg-layer {
+      color: rgba( 0, 0, 0, 0.25 );
+  }
+  .raterater-hover-layer {
+      color: rgba( 255, 255, 0, 0.75 );
+  }
+  .raterater-hover-layer.rated { /* after the user selects a rating */
+      color: rgba( 255, 255, 0, 1 );
+  }
+  .raterater-rating-layer {
+      color: rgba( 255, 155, 0, 0.75 );
+  }
+  .raterater-outline-layer {
+      color: rgba( 0, 0, 0, 0.25 );
+  }
+  
+  /* don't change these - you might break something.. */
+  .raterater-wrapper {
+      overflow:visible;
+  }
+  
+  .software .raterater-wrapper {
+      margin-top: 4px;
+  }
+  
+  .raterater-layer,
+  .raterater-layer i {
+      display: block;
+      position: absolute;
+      overflow: visible;
+      top: 0px;
+      left: 0px;
+  }
+  .raterater-hover-layer {
+      display: none;
+  }
+  .raterater-hover-layer i,
+  .raterater-rating-layer i {
+      width: 0px;
+      overflow: hidden;
+  }
+
+
+
+  .carousel-control-prev-self-icon,
+.carousel-control-next-self-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-self-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #000;
+}
+
+.carousel-control-prev-self-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #000;
+}
